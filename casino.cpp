@@ -18,7 +18,7 @@ int rand_num(){
 }
 int main()
 {
-    cout << "           Enter Deposit amount to play game : $";
+    cout << "Enter Deposit amount to play game : $";
     cin>>amout_money;
     while(true){
         long long betting_amount;
@@ -33,7 +33,7 @@ int main()
             continue ;
         }
 
-        cout<<"guess one :- " ;
+        cout<<"guess one :-";
         int n;
         cin>>n;
         if(n>10||n<=0){
